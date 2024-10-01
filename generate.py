@@ -7,9 +7,9 @@ from augraphy import *
 
 
 # Directory paths
-input_dir = 'data2/clean_base'        # Replace with your actual path
-output_clean_dir = 'data2/train_cleaned' # Replace with your actual path
-output_dirty_dir = 'data2/train' # Replace with your actual path
+input_dir = 'data/clean_base'        # Replace with your actual path
+output_clean_dir = 'data/train_cleaned' # Replace with your actual path
+output_dirty_dir = 'data/train' # Replace with your actual path
 
 # Create output directories if they don't exist
 os.makedirs(output_clean_dir, exist_ok=True)
