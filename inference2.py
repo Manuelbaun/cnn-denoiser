@@ -209,7 +209,7 @@ def model7():
     model = Model(inputs=[input_layer], outputs=[output_layer])
     model.compile(optimizer='adam' , loss='mean_squared_error', metrics=['mae'])
 
-    model.load_weights('./checkpoints/autoencoders/checkpoint_7.weights.h5')
+    model.load_weights('./checkpoints/model_epoch_27.weights.h5')
     model.summary()
     return model
 
